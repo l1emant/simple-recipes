@@ -1,18 +1,74 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
 body{
     font-family: Arial, Helvetica, sans-serif;
+    background-color: #F5EFFF;
+}
+
+
+.card {
+    background-color:#CDC1FF;
+    border-radius: 16px;
+    width: 600px;
+    margin: 32px;
+    padding: 32px;
+
 }
 
 .menu{
-    font-size: 32px;
+    font-size: 42px;
     font-weight: 800px;
     text-align: center;
     color: #ffff;
-    background-color: #0A3200;
+    background-color: #A294F9 ;
 }
 
 
+/*
 .cookies, .pizza, .pancakes{
     background-color: #A3C1AD;
     font-size: 22px;
 
 }
+*/
+
+.cookies,.pizza,.pancakes{
+    background-color:#A294F9;
+    font-size: 22px;
+    font: 700px;
+    text-align: center;
+    width: 400px;
+    margin: 12px auto;
+    border: 2px solid black;
+    padding: 16px;
+}
+
+.recipe-one,
+.recipe-two,
+.recipe-three {
+    color: white;
+    text-decoration: none;
+    
+}
+
+a:hover {
+    color: #5441d2;
+}
+
+a:visited {
+    color: #3318c9;
+}
+
+  ul {
+    list-style-type: none; 
+  }
