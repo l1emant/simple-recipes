@@ -19,9 +19,11 @@ body{
 .card {
     background-color:#CDC1FF;
     border-radius: 16px;
-    width: 600px;
     margin: 32px;
     padding: 32px;
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
 
 }
 
